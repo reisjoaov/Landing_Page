@@ -1,0 +1,35 @@
+body {
+    background-color: #f9faf8;
+    font-family: var(--font-dm-sans);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.footerBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f2937;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerBar .text {
+   flex-shrink: 0;
+}
+
+.footerBar .footerText {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
